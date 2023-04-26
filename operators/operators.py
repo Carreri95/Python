@@ -53,3 +53,16 @@ def multiplication(a, b):
   if type(a) == str or type(b) == str:
     raise TypeError()
   return a * b
+
+def rest(a, b):
+  """It rest two numbers
+     parameter a: First value
+     type a: int, float
+     parameter b: Second value
+     type b: int, float
+
+     return: int, float
+  """
+  if type(a) == str or type(b) == str:
+    raise TypeError()
+  return a % b
